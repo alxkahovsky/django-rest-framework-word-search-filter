@@ -1,14 +1,5 @@
 # Full word filter backend for django REST framework
 
-[![Build Status](https://travis-ci.org/trollknurr/django-rest-framework-word-search-filter.svg?branch=master)](https://travis-ci.org/trollknurr/django-rest-framework-word-search-filter)
-
-Database independent (runs without regexp), easy to use full word search backend. Now works with hyphen.
-Do not use with default `filters.SearchFilter`
-
-## Install
-
-    pip install djangorestframework-word-filter
-
 In your ``settings.py``
 
     INSTALLED_APPS += ('rest_framework_word_filter', )
