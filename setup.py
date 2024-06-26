@@ -32,12 +32,13 @@ def get_package_data(package):
 
 setup(
     name='djangorestframework-word-filter',
-    version='0.2.0',
-    url='https://github.com/trollknurr/django-rest-framework-word-search-filter',
+    version='0.1.0',
+    url='https://github.com/alxkahovsky/django-rest-framework-word-search-filter',
     license='MIT',
-    description='By word filter backend for Django REST Framework. No db backend special features (work on all db).',
-    author='Anton Shtarev',
-    author_email='trollknurr@gmail.com',
+    description='My own fork of (https://github.com/trollknurr/django-rest-framework-word-search-filter)'
+                'By word filter backend for Django REST Framework. No db backend special features (work on all db).',
+    author='Alexey Yakovlev',
+    author_email='yakovlevtech@yandex.ru',
     packages=get_packages('rest_framework_word_filter'),
     package_data=get_package_data('rest_framework_word_filter'),
     zip_safe=False,
